@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 425px) and (orientation: portrait) {
+
+    body {
+        width: 425px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cabecalho {
+        font-family: "Roboto", sans-serif;
+        background: rgb(255, 229, 0);
+        background: radial-gradient(circle, rgba(255, 229, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+
+    #logo {
+        width: 40px;
+        height: 40px;
+        margin: 2px;
+    }
+
+    .titulo {
+        position: relative;
+        align-items: center;
+        margin: 1px;
+        font-size: 1rem;
+    }
+
+    .titulo a {
+        color: white;
+        text-decoration: none;
+        align-items: center;
+        margin: 1px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        flex-wrap: wrap;
+    }
+
+    .menu li {
+        list-style: none;
+        display: flex;
+        margin: 5px;
+        font-size: 1rem;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        margin: 2px;
+        gap: 2px;
+    }
+
+    .banner {
+        margin: auto;
+        max-width: 100%;
+        height: 500px;
+        background-attachment: fixed;
+        background-image: url("https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2020/08/noticias.sorocaba.sp.gov.br-sorocaba-ganha-novo-totem-em-frente-ao-paco-municipal-whatsapp-image-2020-08-14-at-12.13.58-1.jpeg");
+        background-position: 39%;
+        background-size: cover;
+    }
+
+    .desc {
+        font-family: "Fredoka", sans-serif;
+        margin: 1rem;
+    }
+
+    .titulo-sec {
+        font-family: "Roboto", sans-serif;
+        margin: 1rem;
+        text-align: center;
+    }
+
+
+    .colunas {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .div1 {
+        position: relative;
+        width: 100%;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: yellow;
+        margin-top: 1rem;
+    }
+
+    .img-div1 {
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 360px;
+        height: 400px;
+    }
+
+    .desc1 {
+        font-family: "Fredoka", sans-serif;
+        width: 425px;
+        padding: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .div2 {
+        position: relative;
+        width: 100%;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: gray;
+        margin-top: 1rem;
+    }
+
+    .img-div2 {
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 360px;
+        height: 400px;
+    }
+
+    .div3 {
+        position: relative;
+        width: 100%;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: red;
+        margin-top: 1rem;
+    }
+
+    .img-div3 {
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 360px;
+        height: 400px;
+    }
+
+    .carrossel {
+        overflow: hidden;
+        height: 500px;
+        width: 100%px;
+        margin: auto;
+    }
+
+    .container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(0);
+    }
+
+    #img {
+        object-fit: cover;
+        height: 500px;
+        width: 100%px;
+    }
+
+    .carrossel1 {
+        width: 445px;
+    }
+
+    .carrossel12 {
+        width: 425px;
+    }
+
+    .carrossel3 {
+        width: 500px;
+    }
+
+    .desc-carrosel {
+        font-family: 'Fredoka', sans-serif;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .rodape {
+        display: flex;
+        height: 100px;
+        background-color: gray;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .botao {
+        width: 50px;
+        height: 50px;
+    }
+
+    .img-botao {
+        width: 50px;
+        height: 50px;
+    }
+
+    .desc-rodape {
+        font-family: "Fredoka", sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .cabecalho {
+        font-family: "Fredoka", sans-serif;
+        background: rgb(255, 229, 0);
+        background: radial-gradient(circle, rgba(255, 229, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        max-width: 1280;
+        min-width: 400px;
+    }
+
+    #logo {
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+    }
+
+    .titulo {
+        position: relative;
+        text-align: left;
+        margin: 1px;
+    }
+
+    .titulo a {
+        color: white;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .menu li {
+        list-style: none;
+        display: flex;
+        margin: 5px;
+
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+        gap: 5px;
+    }
+
+    .banner {
+        margin: auto;
+        width: 100%;
+        max-width: 1280px;
+        min-height: 400px;
+        height: 500px;
+        background-attachment: fixed;
+        background-image: url("https://crbconstrutora.com.br/blog/wp-content/uploads/2019/12/totem_sorocaba_praca.jpg");
+        background-position-y: -140px;
+        background-repeat: repeat-y;
+    }
+
+    .desc {
+        font-family: "Fredoka", sans-serif;
+        margin: 10px;
+    }
+
+    .colunas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background: rgb(255, 229, 0);
+        background: radial-gradient(circle, rgba(255, 229, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .titulo-sec {
+        font-family: "Roboto", sans-serif;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .div1 {
+        width: 300px;
+        flex-wrap: wrap;
+        background-color: yellow;
+        margin-top: 10px;
+    }
+
+    .div2 {
+        width: 300px;
+        flex-wrap: wrap;
+        background-color: gray;
+        margin-top: 10px;
+    }
+
+    .div3 {
+        width: 300px;
+        flex-wrap: wrap;
+        background-color: red;
+        margin-top: 10px;
+    }
+
+    .img-div1 {
+        width: 300px;
+        height: 400px;
+    }
+
+    .img-div2 {
+        width: 300px;
+        height: 400px;
+    }
+
+    .img-div3 {
+        width: 300px;
+        height: 400px;
+    }
+
+    .desc1 {
+        font-family: "Fredoka", sans-serif;
+        width: 300px;
+        padding: 5px;
+    }
+
+    .carrossel {
+        overflow: hidden;
+        height: 500px;
+        width: 800px;
+        margin: auto;
+    }
+
+    .container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(0);
+    }
+
+    #img {
+        object-fit: cover;
+        height: 500px;
+        width: 800px;
+    }
+
+    .carrossel1 {
+        width: 800px;
+    }
+
+    .carrossel12 {
+        width: 800px;
+    }
+
+    .carrossel3 {
+        width: 800px;
+    }
+
+    .desc-carrosel {
+        font-family: 'Fredoka', sans-serif;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .rodape {
+        display: flex;
+        height: 100px;
+        background-color: gray;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .botao {
+        width: 90px;
+        height: 90px;
+    }
+
+    .img-botao {
+        width: 90px;
+        height: 90px;
+    }
+
+    .desc-rodape {
+        font-family: "Fredoka", sans-serif;
+        text-align: center;
+    }
+
+}
