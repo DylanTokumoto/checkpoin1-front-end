@@ -181,7 +181,7 @@
 @media (max-width: 800px) and (orientation: portrait) {
 
     body {
-        width: 100%;
+        max-width: 100vw;
     }
 
     #logo{
