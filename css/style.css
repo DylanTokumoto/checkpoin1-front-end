@@ -96,22 +96,19 @@
 .divd {
     width: 300px;
     flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+#div1{
     background-color: yellow;
-    margin-top: 10px;
 }
 
-.div2 {
-    width: 300px;
-    flex-wrap: wrap;
+#div2 {
     background-color: gray;
-    margin-top: 10px;
 }
 
-.div3 {
-    width: 300px;
-    flex-wrap: wrap;
-    background-color: red;
-    margin-top: 10px;
+#div3 {
+    background-color: #ff3429;
 }
 
 .imd {
@@ -123,14 +120,6 @@
     font-family: "Fredoka", sans-serif;
     width: 300px;
     padding: 5px;
-}
-
-#div2{
-    background-color: gray;
-}
-
-#div3{
-    background-color: red;
 }
 
 .carrossel {
@@ -179,14 +168,9 @@
     margin-top: 10px;
 }
 
-.botao {
-    width: 90px;
-    height: 90px;
-}
-
 .img-botao {
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
 }
 
 .desc-rodape {
@@ -197,9 +181,7 @@
 @media (max-width: 800px) and (orientation: portrait) {
 
     body {
-        width: 425px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
     }
 
     #logo{
@@ -209,6 +191,7 @@
     .cabecalho{
         display: flex;
         padding: 1rem;
+        height: 20vh;
     }
 
     .titulo{
@@ -216,15 +199,15 @@
     }
 
     .menuD{
+        display: flex;
+        flex-direction: column;
         justify-content: right;
         font-size: 1rem;
-        gap: 1rem;
-        margin: 1rem;
     }
 
     .banner {
         margin: auto;
-        max-width: 100%;
+        max-width: 100vw;
         height: 430px;
         background-attachment: fixed;
         background-image: url("https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2020/08/noticias.sorocaba.sp.gov.br-sorocaba-ganha-novo-totem-em-frente-ao-paco-municipal-whatsapp-image-2020-08-14-at-12.13.58-1.jpeg");
@@ -359,14 +342,9 @@
         margin-bottom: 10px;
     }
 
-    .botao {
-        width: 50px;
-        height: 50px;
-    }
-
     .img-botao {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
 
     .desc-rodape {
